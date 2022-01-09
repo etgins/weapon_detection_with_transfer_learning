@@ -8,3 +8,13 @@ Based on [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-WeaponDe
   * [Subtitle-1](#Subtitle-1)
 
 # Subtitle-1
+
+
+# Files-in-the-repository
+
+Both file are well documented. just follow the documentation and you will be fine :)
+
+|File name         | Description |
+|----------------------|------|
+|`file name 1`| File 1 Description|
+|`file name 2`| File 2 Description|
