@@ -23,7 +23,6 @@ Both file are well documented. just follow the documentation and you will be fin
 # Sources
 
 Dataset source: https://www.kaggle.com/c/cassava-leaf-disease-classification  
-> Fork of cassava model: https://www.kaggle.com/charlesrongione/fork-of-cassava  
-<!-- spatial transformer network implementation: https://pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html   -->
-Optuna: https://optuna.org    
-stochastic depth implementaion: https://link.springer.com/chapter/10.1007/978-3-319-46493-0_39  
+> Description 1: url 1
+
+> Description 2: url 2
