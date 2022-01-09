@@ -7,10 +7,10 @@ Based on [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-WeaponDe
 - [Weapon Detection with Transfer Learning](#Weapon Detection with Transfer Learning)  
   * [Subtitle-1](#Subtitle-1)
 
-# Subtitle-1
+## Subtitle-1
 
 
-# Files-in-the-repository
+## File Descriptions
 
 Both file are well documented. just follow the documentation and you will be fine :)
 
