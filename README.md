@@ -3,11 +3,15 @@ In this project we attempt to use a pretrained YOLOv5 model to detect weapons in
 Class project as part of ee046211 - Deep Learning course @ Technion.  
 In collaboration with Alon Nemirovsky.  
 
-Based on [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-WeaponDetection) dataset
+
 - [Weapon Detection with Transfer Learning](#Weapon Detection with Transfer Learning)  
   * [Subtitle-1](#Subtitle-1)
 
-## Subtitle-1
+## Dataset
+We use the [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-WeaponDetection) dataset, mainly 'Knife Detection' and 'Pistol Detection'.  
+Image examples from the dataset:  
+  
+<img src="repository_images/armas%20(107).jpg" height="200" >    <img src="repository_images/armas%20(2070).jpg" height="200" 
 
 
 ## File Descriptions
