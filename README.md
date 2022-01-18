@@ -6,7 +6,12 @@ In collaboration with Alon Nemirovsky.
 
 
 - [Weapon Detection with Transfer Learning](#Weapon%20Detection%20with%20Transfer%20Learning)
+  * [Background](#Background)  
   * [Dataset](#Dataset)  
+  * [Files in the repository](#Files%20in%20the%20repository)
+  * [Sources](#Sources)
+
+## Background
 
 
 ## Dataset
@@ -28,7 +33,7 @@ We use the [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-Weapon
 [1 0.618 0.297 0.116 0.081]  
 
 
-## File Descriptions
+## Files in the repository
 
 Both file are well documented. just follow the documentation and you will be fine :)
 
