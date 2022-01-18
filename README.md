@@ -32,6 +32,7 @@ We use the [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-Weapon
 [1 0.521 0.449 0.647 0.601]  
 [1 0.618 0.297 0.116 0.081]  
 
+Each file includes the class number of the detect object (0 - pistol, 1 - knife) and 4 points (normalized) indicating the object bounding box.
 
 ## Files in the repository
 
