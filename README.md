@@ -8,6 +8,7 @@ In collaboration with Alon Nemirovsky.
 - [Weapon Detection with Transfer Learning](#Weapon%20Detection%20with%20Transfer%20Learning)
   * [Background](#Background)  
   * [Dataset](#Dataset)  
+  * [Model](#Model)  
   * [Files in the repository](#Files%20in%20the%20repository)
   * [Sources](#Sources)
 
@@ -34,9 +35,10 @@ We use the [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-Weapon
 
 Each file includes the class number of the detect object (0 - pistol, 1 - knife) and 4 points (normalized) indicating the object bounding box.
 
-## Files in the repository
+## Model
 
-Both file are well documented. just follow the documentation and you will be fine :)
+
+## Files in the repository
 
 |File name         | Description |
 |----------------------|------|
@@ -44,9 +46,7 @@ Both file are well documented. just follow the documentation and you will be fin
 |`file name 2`| File 2 Description|
 
 
-# Sources
-
-Dataset source: https://www.kaggle.com/c/cassava-leaf-disease-classification  
-> Description 1: url 1
+## Sources  
+> Kaggle dataset and challenge: https://www.kaggle.com/c/cassava-leaf-disease-classification  
 
 > Description 2: url 2
