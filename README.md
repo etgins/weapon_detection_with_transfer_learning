@@ -15,7 +15,7 @@ Class project as part of ee046211 - Deep Learning course @ Technion.
   * [Sources](#Sources)
 
 ## Background
-To ensure citizens’ safety, we want to enable security cameras to detect a person carrying a weapon, so security services can be quickly alerted and can decide on the best course of action, thus dramatically reducing response time to save lives. 
+To ensure citizen's safety, we want to enable security cameras to detect a person carrying a weapon, so security services can be quickly alerted and can decide on the best course of action, thus dramatically reducing response time to save lives. 
 For this purpose, take advantage of an advanced neural-network architecture utilized for detection tasks in other domains through the technique of transfer-learning.
 
 ## Dataset
