@@ -1,6 +1,6 @@
 # Weapon Detection with Transfer Learning
 In this project we attempt to use a pretrained YOLOv5 model to detect weapons in various scenarios.  
-We use Transfer-Learning by training only the last layers on the new dataset to achieve this task.  
+We use Transfer-Learning by additional training on a pre-trained network using the new dataset to achieve this task.  
 Class project as part of ee046211 - Deep Learning course @ Technion.  
 <p align="center">
     <a href="https://www.linkedin.com/in/itamar-ginsberg/">Itamar Ginsberg</a>  •  
@@ -43,7 +43,7 @@ Each file includes the class number of the detect object (0 - pistol, 1 - knife)
 <img src="repository_images/YOLOv5%20Structure.png" width="600" >
 </p>
 
-YOLO (You Only Look Once) divides an image into a grid system, and each grid detects objects within itself. They can be used for real-time object detection based on the data streams. They require very few computational resources.
+YOLO (You Only Look Once) divides an image into a grid system, and each grid detects objects within itself. It is a very fast algorithm that can be used for *real-time* object detection based on data streams, while requiring very few computational resources.
 *TODO - add information about YOLO and YOLOv5
 
 <p align="center">
