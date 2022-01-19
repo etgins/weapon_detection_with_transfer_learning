@@ -58,7 +58,7 @@ Each file includes the class number of the detect object (0 - pistol, 1 - knife)
 ## Presentation
 *TODO - links to youtube and slides
 - [Recording](URL) of in-class project presentation (Hebrew only)
-- Slides can be found [here](URL)
+- Slides can be found [here](https://docs.google.com/presentation/d/1YwvSj-yY5Msszw83hv6qB6qxPFPEGPw6swNo3wLiULk/edit?usp=sharing)
 
 ## Sources  
 *TODO - more resources
