@@ -40,6 +40,7 @@ Each file includes the class number of the detect object (0 - pistol, 1 - knife)
 ## Model
 <p align="center">
 <img src="repository_images/YOLOv5%20Structure.png" width="600" >
+<img src="repository_images/YOLOv5%20models.png" width="600" >
 </p>
 
 *TODO - insert exaplanation about YOLOv5 architecture
