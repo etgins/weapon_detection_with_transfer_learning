@@ -63,7 +63,7 @@ YOLO (You Only Look Once) divides an image into a grid system, and each grid det
 *TODO - fill in results and screenshot
 
 <p align="center">
-<img src="repository_images/results%201.png" width="600" >
+<img src="repository_images/results_1.jfif" width="600" >
 </p>
 
 ## Presentation
