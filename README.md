@@ -19,8 +19,7 @@ Class project as part of ee046211 - Deep Learning course @ Technion.
 
 ## Dataset
 We use the [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-WeaponDetection) dataset, mainly 'Knife Detection' and 'Pistol Detection'.  
-The data includes ___ pistol images and ___ knife images  
-*TODO - insert number of samples
+The data includes 3000 pistol images and 2078 knife images.  
 **Image examples from the dataset:**  
 
 <p align="center">
