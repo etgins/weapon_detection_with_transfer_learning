@@ -70,6 +70,12 @@ YOLO (You Only Look Once) divides an image into a grid system, and each grid det
 <img src="repository_images/results_1.jfif" width="400" >
 </p>
 
+
+<p align="center">
+<img src="yolov5/runs/detect/yolo_weapons_det/DSC_0005.jpg" width="400" >
+</p>
+
+
 ## Presentation
 *TODO - links to youtube and slides
 - [Recording](URL) of in-class project presentation (Hebrew only)
