@@ -18,12 +18,11 @@ In collaboration with Alon Nemirovsky.
 ## Dataset
 We use the [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-WeaponDetection) dataset, mainly 'Knife Detection' and 'Pistol Detection'.  
 **Image examples from the dataset:**  
-<img src="repository_images/armas%20(107).jpg" height="200" >
-<img src="repository_images/armas%20(2070).jpg" height="200">
-<img src="repository_images/armas%20(1101).jpg" height="200">  
-<img src="repository_images/DSC_00481.JPG" height="200">
-<img src="repository_images/knife_48.jpg" height="200">
-<img src = "repository_images/KravMagaKnifeDefenseTechniques249.jpg" height="200">
+
+<!-- <p class="alignleft"> -->
+<img src="repository_images/armas%20(107).jpg" height="200" > <img src="repository_images/armas%20(2070).jpg" height="200"> <img src="repository_images/armas%20(1101).jpg" height="200">  
+<img src="repository_images/DSC_00481.JPG" height="200"> <img src="repository_images/knife_48.jpg" height="200"> <img src = "repository_images/KravMagaKnifeDefenseTechniques249.jpg" height="200">
+<!-- </p> -->
 
 **Annotation examples from the dataset: (matching the images above)**  
 [0 0.378 0.387 0.205 0.332]   
@@ -45,8 +44,13 @@ Each file includes the class number of the detect object (0 - pistol, 1 - knife)
 |`file name 1`| File 1 Description|
 |`file name 2`| File 2 Description|
 
+## Results
+
+## Presentation
+- [Recording](URL) of in-class project presentation (Hebrew only)
+- Slides can be found [here](URL)
 
 ## Sources  
-> Kaggle dataset and challenge: https://www.kaggle.com/c/cassava-leaf-disease-classification  
+- [[1]](https://www.kaggle.com/c/cassava-leaf-disease-classification) Kaggle dataset and challenge
 
-> Description 2: url 2
+- [[2]](URL2) Desrciption 2
