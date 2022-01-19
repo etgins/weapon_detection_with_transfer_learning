@@ -62,7 +62,7 @@ Each file includes the class number of the detect object (0 - pistol, 1 - knife)
 - Slides can be found [here](https://docs.google.com/presentation/d/1YwvSj-yY5Msszw83hv6qB6qxPFPEGPw6swNo3wLiULk/edit?usp=sharing)
 
 ## Sources  
-*TODO - more resources
-- [[1]](https://www.kaggle.com/c/cassava-leaf-disease-classification) Kaggle dataset and challenge
-- [[2]](https://github.com/ultralytics/yolov5) Ultraylytics YOLOv5 repository
-- [[3]](https://docs.ultralytics.com/) Ultralytics YOLOv5 documentation
+*TODO - more resources  
+[[1] Kaggle dataset and challenge](https://www.kaggle.com/c/cassava-leaf-disease-classification)   
+[[2] Ultralytics YOLOv5 repository](https://github.com/ultralytics/yolov5)   
+[[3] Ultralytics YOLOv5 documentation](https://docs.ultralytics.com/)
