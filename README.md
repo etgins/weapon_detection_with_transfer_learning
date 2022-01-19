@@ -15,7 +15,8 @@ Class project as part of ee046211 - Deep Learning course @ Technion.
   * [Sources](#Sources)
 
 ## Background
-
+To ensure citizens’ safety, we want to enable security cameras to detect a person carrying a weapon, so security services can be quickly alerted and can decide on the best course of action, thus dramatically reducing response time to save lives. 
+For this purpose, take advantage of an advanced neural-network architecture utilized for detection tasks in other domains through the technique of transfer-learning.
 
 ## Dataset
 We use the [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-WeaponDetection) dataset, mainly 'Knife Detection' and 'Pistol Detection'.  
@@ -40,10 +41,15 @@ Each file includes the class number of the detect object (0 - pistol, 1 - knife)
 ## Model
 <p align="center">
 <img src="repository_images/YOLOv5%20Structure.png" width="600" >
-<img src="repository_images/YOLOv5%20models.png" width="600" >
 </p>
 
-*TODO - insert exaplanation about YOLOv5 architecture
+YOLO (You Only Look Once) divides an image into a grid system, and each grid detects objects within itself. They can be used for real-time object detection based on the data streams. They require very few computational resources.
+*TODO - add information about YOLO and YOLOv5
+
+<p align="center">
+<img src="repository_images/YOLOv5%20models.png" width="600" >
+</p>
+*TODO - add information about the different YOLOv5 models
 
 ## Files in the repository
 
@@ -54,7 +60,7 @@ Each file includes the class number of the detect object (0 - pistol, 1 - knife)
 |`file name 2`| File 2 Description|
 
 ## Results
-# TODO - fill in results and screenshot
+*TODO - fill in results and screenshot
 
 ## Presentation
 *TODO - links to youtube and slides
