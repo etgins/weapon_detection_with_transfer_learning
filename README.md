@@ -63,6 +63,8 @@ Each file includes the class number of the detect object (0 - pistol, 1 - knife)
 
 ## Sources  
 *TODO - more resources  
-[[1] Kaggle dataset and challenge](https://www.kaggle.com/c/cassava-leaf-disease-classification)   
-[[2] Ultralytics YOLOv5 repository](https://github.com/ultralytics/yolov5)   
-[[3] Ultralytics YOLOv5 documentation](https://docs.ultralytics.com/)
+[1] Kaggle [dataset and challenge](https://www.kaggle.com/c/cassava-leaf-disease-classification)   
+[2] Ultralytics [YOLOv5 repository](https://github.com/ultralytics/yolov5)   
+[3] Ultralytics [YOLOv5 documentation](https://docs.ultralytics.com/)  
+[4] Bochkovskiy, A., Wang, C.Y. and Liao, H.Y.M., 2020. [Yolov4: Optimal speed and accuracy of object detection](https://arxiv.org/abs/2004.10934) (arXiv preprint arXiv:2004.10934.  
+[5] analytics-vidhya (Medium): [Object Detection Algorithm — YOLO v5 Architecture](https://medium.com/analytics-vidhya/object-detection-algorithm-yolo-v5-architecture-89e0a35472ef)
