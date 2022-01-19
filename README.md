@@ -62,6 +62,10 @@ YOLO (You Only Look Once) divides an image into a grid system, and each grid det
 ## Results
 *TODO - fill in results and screenshot
 
+<p align="center">
+<img src="repository_images/results%201.png" width="600" >
+</p>
+
 ## Presentation
 *TODO - links to youtube and slides
 - [Recording](URL) of in-class project presentation (Hebrew only)
