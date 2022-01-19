@@ -2,8 +2,10 @@
 In this project we attempt to use a pretrained YOLOv5 model to detect weapons in various scenarios.  
 We use Transfer-Learning by training only the last layers on the new dataset to achieve this task.  
 Class project as part of ee046211 - Deep Learning course @ Technion.  
-In collaboration with Alon Nemirovsky.  
-
+<p align="center">
+    <a href="https://www.linkedin.com/in/itamar-ginsberg/">Itamar Ginsberg</a>  •  
+    <a href="https://il.linkedin.com/in/alon-nemirovsky-3082651b4">Alon Nemirovsky</a>
+</p>
 
 - [Weapon Detection with Transfer Learning](#Weapon%20Detection%20with%20Transfer%20Learning)
   * [Background](#Background)  
