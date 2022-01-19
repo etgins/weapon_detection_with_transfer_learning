@@ -69,8 +69,8 @@ YOLO (You Only Look Once) divides an image into a grid system, and each grid det
 
 ## Sources  
 *TODO - more resources  
-[1] Kaggle [dataset and challenge](https://www.kaggle.com/c/cassava-leaf-disease-classification)   
+[1] ari-dasci/[OD-WeaponDetection](https://github.com/ari-dasci/OD-WeaponDetection) full dataset  
 [2] Ultralytics [YOLOv5 repository](https://github.com/ultralytics/yolov5)   
 [3] Ultralytics [YOLOv5 documentation](https://docs.ultralytics.com/)  
-[4] Bochkovskiy, A., Wang, C.Y. and Liao, H.Y.M., 2020. [Yolov4: Optimal speed and accuracy of object detection](https://arxiv.org/abs/2004.10934) (arXiv preprint arXiv:2004.10934.  
+[4] Bochkovskiy, A., Wang, C.Y. and Liao, H.Y.M., 2020. [Yolov4: Optimal speed and accuracy of object detection](https://arxiv.org/abs/2004.10934) (arXiv preprint arXiv:2004.10934.)  
 [5] analytics-vidhya (Medium): [Object Detection Algorithm — YOLO v5 Architecture](https://medium.com/analytics-vidhya/object-detection-algorithm-yolo-v5-architecture-89e0a35472ef)
