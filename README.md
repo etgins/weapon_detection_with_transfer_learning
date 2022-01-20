@@ -52,12 +52,14 @@ YOLO (You Only Look Once) divides an image into a grid system, and each grid det
 *TODO - add information about the different YOLOv5 models
 
 ## Files in the repository
-
-*TODO - fill in file descriptions
 |File name         | Description |
 |----------------------|------|
-|`file name 1`| File 1 Description|
-|`file name 2`| File 2 Description|
+|`DL_project_code`| Main code file - includes setup, data reformatting and reorganization, training the model and using the outcome to detect new images|
+|`yolov5/data/Weapons.yaml`| Definition of dataset location, number of classes and names|
+|`yolov5/data/hyps/hyp.scratch.yaml`| Definition of the model's hyperparameters and augmentation parameters|
+|`yolov5/models/yolo5{}.yaml`| Configuration file for { Nano (n) / Small (s) / Medium (m) / Large (l) / XLarge (x) } models|
+|`yolov5/runs`| Location of runs' data and results for both training and detection|
+|`repository_images`| Images used for preview in README.md file|
 
 ## Results
 *TODO - fill in results and screenshot
