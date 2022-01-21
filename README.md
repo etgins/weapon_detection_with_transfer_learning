@@ -1,7 +1,8 @@
 # Weapon Detection with Transfer Learning
 In this project we attempt to use a pretrained YOLOv5 model to detect weapons in various scenarios.  
-We use Transfer-Learning by additional training on a pre-trained network using the new dataset to achieve this task.  
-Class project as part of ee046211 - Deep Learning course @ Technion.  
+We use Transfer-Learning by performing additional training on a pre-trained network, using the new dataset, to achieve this task.  
+This is a class project as part of EE046211 - Deep Learning course @ Technion.  
+
 <p align="center">
     <a href="https://www.linkedin.com/in/itamar-ginsberg/">Itamar Ginsberg</a>  •  
     <a href="https://il.linkedin.com/in/alon-nemirovsky-3082651b4">Alon Nemirovsky</a>
@@ -15,12 +16,12 @@ Class project as part of ee046211 - Deep Learning course @ Technion.
   * [Sources](#Sources)
 
 ## Background
-To ensure citizen's safety, we want to enable security cameras to detect a person carrying a weapon, so security services can be quickly alerted and can decide on the best course of action, thus dramatically reducing response time to save lives. 
+To ensure citizens' safety, we want to enable security cameras to detect a person carrying a weapon, so security services can be quickly alerted and can decide on the best course of action, thus dramatically reducing response time to save lives. 
 For this purpose, take advantage of an advanced neural-network architecture utilized for detection tasks in other domains through the technique of transfer-learning.
 
 ## Dataset
 We use the [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-WeaponDetection) dataset, mainly 'Knife Detection' and 'Pistol Detection'.  
-The data includes 3000 pistol images and 2078 knife images.  
+The data includes 3000 pistol images and 2078 knife images, many of which feature life-like scenarios. There are 
 **Image examples from the dataset:**  
 
 <p align="center">
@@ -55,12 +56,13 @@ For YOLOv5 the backbone is a CSPDarknet53 CNN, the neck is PANet and the head is
 While yolov4 introduced new augmentations such as Mosaic and Self-Adversarial-Training, YOLOv5 (2020), released a month later, features implementation based on the PyTorch framework and use of .yaml files for configuration.  
 Currently (1/22) there is no official paper on this model.  
 
-*TODO - add information about YOLO and YOLOv5
-
 <p align="center">
 <img src="repository_images/YOLOv5%20models.png" width="600" >
 </p>  
-*TODO - add information about the different YOLOv5 models  
+
+<p align="center">
+<img src="repository_images/model_plot.png" width="600" >
+</p>
 
 ## Files in the repository
 |File name         | Description |
@@ -73,7 +75,7 @@ Currently (1/22) there is no official paper on this model.
 |`repository_images`| Images used for preview in README.md file|
 
 ## Results
-*TODO - fill in results and screenshot  
+*TODO - more information about results?
 
 <p align="center">
 <img src="repository_images/results_2.png" >
