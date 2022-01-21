@@ -40,16 +40,27 @@ Each file includes the class number of the detect object (0 - pistol, 1 - knife)
 
 ## Model
 <p align="center">
-<img src="repository_images/YOLOv5%20Structure.png" width="600" >
+    <img src="repository_images/YOLOv5%20Structure.png" width="600" >
 </p>
 
-YOLO (You Only Look Once) divides an image into a grid system, and each grid detects objects within itself. It is a very fast algorithm that can be used for *real-time* object detection based on data streams, while requiring very few computational resources.
+
+YOLO (You Only Look Once) divides an image into a grid system, and each grid detects objects within itself. It is a very fast algorithm that can be used for *real-time* object detection based on data streams, while requiring very few computational resources.  
+The architecture of a detection network is generally made up of a backbone (responsible for feature extraction from the image) and a head (responsible for bounding-box and label prediction). In many instances, the model also includes a 'neck' between the backbone and head (responsible for feature fusion).
+
+<p align="center">
+    <img src="https://miro.medium.com/max/2000/1*HW82Bdszqwii0-H4K1mcXg.png" >
+</p>
+
+For YOLOv5 the backbone is a CSPDarknet53 CNN, the neck is PANet and the head is a YOLO layer.
+While yolov4 introduced new augmentations such as Mosaic and Self-Adversarial-Training, YOLOv5 (2020), released a month later, features implementation based on the PyTorch framework and use of .yaml files for configuration.  
+Currently (1/22) there is no official paper on this model.  
+
 *TODO - add information about YOLO and YOLOv5
 
 <p align="center">
 <img src="repository_images/YOLOv5%20models.png" width="600" >
-</p>
-*TODO - add information about the different YOLOv5 models
+</p>  
+*TODO - add information about the different YOLOv5 models  
 
 ## Files in the repository
 |File name         | Description |
@@ -62,7 +73,7 @@ YOLO (You Only Look Once) divides an image into a grid system, and each grid det
 |`repository_images`| Images used for preview in README.md file|
 
 ## Results
-*TODO - fill in results and screenshot
+*TODO - fill in results and screenshot  
 
 <p align="center">
 <img src="repository_images/results_2.png" >
@@ -79,7 +90,7 @@ YOLO (You Only Look Once) divides an image into a grid system, and each grid det
 </p>
 
 ## Presentation
-*TODO - links to youtube and slides
+*TODO - links to youtube and slides  
 - [Recording](URL) of in-class project presentation (Hebrew only)
 - Slides can be found [here](https://docs.google.com/presentation/d/1YwvSj-yY5Msszw83hv6qB6qxPFPEGPw6swNo3wLiULk/edit?usp=sharing)
 
