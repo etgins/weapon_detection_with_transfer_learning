@@ -16,12 +16,12 @@ This is a class project as part of EE046211 - Deep Learning course @ Technion.
   * [Sources](#Sources)
 
 ## Background
-To ensure citizens' safety, we want to enable security cameras to detect a person carrying a weapon, so security services can be quickly alerted and can decide on the best course of action, thus dramatically reducing response time to save lives. 
-For this purpose, take advantage of an advanced neural-network architecture utilized for detection tasks in other domains through the technique of transfer-learning.
+To ensure citizens' safety, we want to enable security cameras to automatically detect a person carrying a weapon, so security services can be quickly alerted and can then decide on the best course of action, thus dramatically reducing response time to save lives. 
+For this purpose, we take advantage of an advanced neural-network architecture utilized for detection tasks in other domains through the technique of transfer-learning and fine-tuning.
 
 ## Dataset
 We use the [ari-dasci/OD-WeaponDetection](https://github.com/ari-dasci/OD-WeaponDetection) dataset, mainly 'Knife Detection' and 'Pistol Detection'.  
-The data includes 3000 pistol images and 2078 knife images, many of which feature life-like scenarios. There are 
+The data includes 3000 pistol images and 2078 knife images, many of which feature life-like scenarios.
 **Image examples from the dataset:**  
 
 <p align="center">
@@ -37,7 +37,7 @@ The data includes 3000 pistol images and 2078 knife images, many of which featur
  [1 0.521 0.449 0.647 0.601]  
  [1 0.618 0.297 0.116 0.081]  
 
-Each file includes the class number of the detect object (0 - pistol, 1 - knife) and 4 points (normalized) indicating the object bounding box.
+Each file includes the class number of the detected object (0 - pistol, 1 - knife) and 4 points (normalized) indicating the object's bounding box.
 
 ## Model
 <p align="center">
@@ -45,17 +45,17 @@ Each file includes the class number of the detect object (0 - pistol, 1 - knife)
 </p>
 
 
-YOLO (You Only Look Once) divides an image into a grid system, and each grid detects objects within itself. It is a very fast algorithm that can be used for *real-time* object detection based on data streams, while requiring very few computational resources.  
-The architecture of a detection network is generally made up of a backbone (responsible for feature extraction from the image) and a head (responsible for bounding-box and label prediction). In many instances, the model also includes a 'neck' between the backbone and head (responsible for feature fusion).
+YOLO (You Only Look Once) divides an image into a grid system, where each grid detects objects within itself. It is a very fast algorithm that can be used for *real-time* object detection based on data streams, while requiring very few computational resources.  
+The architecture of a detection network is generally made up of a backbone (responsible for feature extraction) and a head (responsible for bounding-box and label prediction). In many instances, the model also includes a 'neck' between the backbone and head (responsible for feature fusion).
 
 <p align="center">
     <img src="https://miro.medium.com/max/2000/1*HW82Bdszqwii0-H4K1mcXg.png" >
 </p>
 
-For YOLOv5 the backbone is a CSPDarknet53 CNN, the neck is PANet and the head is a YOLO layer.
-While yolov4 introduced new augmentations such as Mosaic and Self-Adversarial-Training, YOLOv5 (2020), released a month later, features implementation based on the PyTorch framework and use of .yaml files for configuration.  
+For YOLOv5, the backbone is carried out by the CSPDarknet53 CNN, the neck uses PANet and the head is a YOLO layer.
+While yolov4(April 2020) introduced new augmentations such as Mosaic and Self-Adversarial-Training, YOLOv5, released a month later by Glenn Jocher, features implementation based on the PyTorch framework and the use of .yaml files for configuration.  
 Currently (1/22) there is no official paper on this model.  
-
+Ultralytics offers a choice of 5 YOLOv5 models, differing mainly in size and complexity:
 <p align="center">
 <img src="repository_images/YOLOv5%20models.png" width="600" >
 </p>  
@@ -70,7 +70,7 @@ Currently (1/22) there is no official paper on this model.
 |`DL_project_code`| Main code file - includes setup, data reformatting and reorganization, training the model and using the outcome to detect new images|
 |`yolov5/data/Weapons.yaml`| Definition of dataset location, number of classes and names|
 |`yolov5/data/hyps/hyp.scratch.yaml`| Definition of the model's hyperparameters and augmentation parameters|
-|`yolov5/models/yolo5{}.yaml`| Configuration file for { Nano (n) / Small (s) / Medium (m) / Large (l) / XLarge (x) } models|
+|`yolov5/models/yolo5*.yaml`| Configuration file for { Nano (n) / Small (s) / Medium (m) / Large (l) / XLarge (x) } models|
 |`yolov5/runs`| Location of runs' data and results for both training and detection|
 |`repository_images`| Images used for preview in README.md file|
 
