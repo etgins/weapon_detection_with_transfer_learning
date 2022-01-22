@@ -75,8 +75,6 @@ Ultralytics offers a choice of 5 YOLOv5 models, differing mainly in size and com
 |`repository_images`| Images used for preview in README.md file|
 
 ## Results
-*TODO - more information about results?
-
 <p align="center">
 <img src="repository_images/results_2.png" >
 </p>
@@ -90,6 +88,8 @@ Ultralytics offers a choice of 5 YOLOv5 models, differing mainly in size and com
 
 <img src="yolov5/runs/detect/yolo_weapons_det/armas%20(1098).jpg" height="250" >
 </p>
+
+As shown in the resulting images above, our model was able to detect the desired objects, even in dense or very small instances, both of which are known to be weaknesses of the classic YOLO algorithm.
 
 ## Presentation
 *TODO - links to youtube and slides  
