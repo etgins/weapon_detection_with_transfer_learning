@@ -1,5 +1,5 @@
 # Weapon Detection with Transfer Learning
-In this project we attempt to use a pretrained YOLOv5 model to detect weapons in various scenarios.  
+In this project we attempt to use a YOLOv5 model to detect weapons in various scenarios.  
 We use Transfer-Learning by performing additional training on a pre-trained network, using the new dataset, to achieve this task.  
 This is a class project as part of EE046211 - Deep Learning course @ Technion.  
 
