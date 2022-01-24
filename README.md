@@ -37,7 +37,7 @@ The data includes 3000 pistol images and 2078 knife images, many of which featur
  [1 0.521 0.449 0.647 0.601]  
  [1 0.618 0.297 0.116 0.081]  
 
-Each file includes the class number of the detected object (0 - pistol, 1 - knife) and 4 points (normalized) indicating the object's bounding box.
+Each line in a file includes the class number of the detected object (0 - pistol, 1 - knife) and 4 points (normalized) indicating the object's bounding box. There can be more than one line in an annotation file, indicating more than one object in the scene.
 
 ## Model
 <p align="center">
