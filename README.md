@@ -92,12 +92,10 @@ Ultralytics offers a choice of 5 YOLOv5 models, differing mainly in size and com
 As shown in the resulting images above, our model was able to detect the desired objects, even in dense or very small instances, both of which are known to be weaknesses of the classic YOLO algorithm.
 
 ## Presentation
-*TODO - links to youtube and slides  
 - [Recording](https://youtu.be/hOgKrfSXE18) of in-class project presentation (Hebrew only)
 - Slides can be found [here](https://docs.google.com/presentation/d/1YwvSj-yY5Msszw83hv6qB6qxPFPEGPw6swNo3wLiULk/edit?usp=sharing)
 
 ## Sources  
-*TODO - more resources  
 [1] ari-dasci/[OD-WeaponDetection](https://github.com/ari-dasci/OD-WeaponDetection) full dataset  
 [2] v7labs - [YOLO: Real-Time Object Detection Explained](https://www.v7labs.com/blog/yolo-object-detection)  
 [3] Ultralytics [YOLOv5 repository](https://github.com/ultralytics/yolov5)   
